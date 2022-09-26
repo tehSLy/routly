@@ -1,0 +1,29 @@
+{
+  "name": "routly",
+  "version": "1.0.0",
+  "description": "Library for managing TS/JS Application routes",
+  "main": "src/index",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "ts-mocha -p tsconfig.json tests/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehSLy/routly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tehSLy/routly/issues"
+  },
+  "homepage": "https://github.com/tehSLy/routly#readme",
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.1.1",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0"
+  }
+}
